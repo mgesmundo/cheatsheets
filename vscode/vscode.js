@@ -60,7 +60,7 @@ request
           commands += "    entry do\n";
   	      commands += "      command '" + command + "'\n";
   	      commands += "      name '" + name + "'\n";
-  	      commands += "      notes '" + notes + "'\n";
+  	      commands += "      notes '`" + notes + "`'\n";
           commands += "    end\n";    
         }
           commands += "  end\n";    
