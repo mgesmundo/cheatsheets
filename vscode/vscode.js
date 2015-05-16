@@ -1,3 +1,4 @@
+/// <reference path="../typings/node/node.d.ts"/>
 var cheerio = require('cheerio');
 var request = require('superagent');
 var fs = require('fs');
