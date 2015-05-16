@@ -25,13 +25,13 @@ var categories = [
 var top = [
   "cheatsheet do",
   "  title 'Visual Studio Code'",
-  "  docset_file_name 'vscode'",
+  "  docset_file_name 'Visual_Studio_Code'",
   "  keyword 'vscode'",
-  "  introduction 'Microsoft Visual Studio Code cheat sheet'"
+  "  source_url 'http://cheat.kapeli.com'\n"
 ].join('\n');
 var commands = '';
 var bottom = [
-  "  notes 'More information at https://code.visualstudio.com/Docs/customization'",
+  "  notes '* More information at https://code.visualstudio.com/Docs/customization'",
   "end"
 ].join('\n');
 var content;
