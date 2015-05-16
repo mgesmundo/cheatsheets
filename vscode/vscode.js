@@ -1,4 +1,4 @@
-/// <reference path="../typings/node/node.d.ts"/>
+/// <reference path="typings/node/node.d.ts"/>
 var cheerio = require('cheerio');
 var request = require('superagent');
 var fs = require('fs');
@@ -64,7 +64,7 @@ request
   	      commands += "      notes '`" + notes + "`'\n";
           commands += "    end\n";    
         }
-          commands += "  end\n";    
+        commands += "  end\n";    
       }
       content = top + '\n' + commands + '\n' + bottom;
       fs.writeFile(path.resolve('..','cheatsheets','vscode.rb'), content, function (err) {
